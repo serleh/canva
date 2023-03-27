@@ -29,8 +29,105 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
+
+/* 
+HEADER STYLING */
+header {
+     border: 2px solid red;
+
+}
+nav ul li{
+     list-style-type: none;
+}
+nav ul li a{
+     text-decoration: none;
+}
+nav ul{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+nav input{
+     width: 400px;
+     height: 40px;
+}
+.se{
+     position: absolute;
+     align-self: center;
+}
+
+/* TOP HERO */
+
+.top-hero{
+     border: 2px solid blue;
+     height: 220px;
+
+}
+
+.top-hero-items{
+     margin: 0 auto;
+     width: 80%;
+     border: 2px solid rd;
+     text-align: center;
+}
+
+/* BUTTON */
+
+a{
+     text-decoration: none;
+}
+.btn{
+     border: 2px solid  #A020F0;
+     border-radius: 5px;
+     color: #fff;
+     background-color: #A020F0;
+     padding: 10px;
+     font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+/* MAIN CONTAINER */
+
+.main-container{
+     display: flex;
+     border: 2px solid red;
+     justify-content: space-between;
+     width: 90%;
+     margin: 0 auto;
+     
+     
+}
+.main-container-content-1{
+     border: 2px solid pink;
+}
+.main-container-content-2{
+     border: 2px solid blue;
+     width: 60%;
+     
+}
+.main-container-content-1, .main-container-content-3{
+     width: 20%;
+}
+.main-container-content-1 img, .main-container-content-3 img{
+     width: 60%;
+     margin-left: 50px;
+
+}
+
+.move-down{
+     margin-top: 100px;
+     border: 2px solid rebeccapurple;
+}
+
+.main-container-content-2 video{
+     width: 800px;
+     margin: 0 auto;
+     margin-top: 20px;
+}
+
+.main-container-content-3{
+     border: 2px solid green;
 }
 
 footer {
@@ -40,3 +137,22 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* FONTS */
+
+nav ul li a{
+     font-family: 'Tajawal', sans-serif;
+     color: #000;
+     font-weight: bold;
+     font-size: 1.2rem;
+}
+
+.top-hero-items h1{
+     font-family: 'Quicksand', sans-serif;
+     font-size: 3rem;
+}
+
+.top-hero-items p{
+     font-family: 'Fira Sans Extra Condensed', sans-serif;
+     font-size: 1.7rem;
+}
