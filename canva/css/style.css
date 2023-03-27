@@ -130,6 +130,42 @@ a{
      border: 2px solid green;
 }
 
+/* PERFECT FIT SECTION */
+
+.perfect-fit{
+     text-align: center;
+     margin:50px;
+}
+.perfect-fit-contents{
+     border: 2px solid blue;
+     display: flex;
+     justify-content: space-between;
+     height: 300px;
+     width: 80%;
+     margin: 0 auto;
+}
+
+.perfect-fit-contents .icon{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border: 2px solid red;
+}
+.icon i{
+     margin-right: 10px;
+     color: gold;
+}
+
+.perfect-fit-contents section{
+     border: 2px solid black;
+    
+}
+
+.perfect-fit-contents section .btn{
+     width: 90%;
+     height: 50px;
+}
+
 footer {
 
 }
@@ -155,4 +191,12 @@ nav ul li a{
 .top-hero-items p{
      font-family: 'Fira Sans Extra Condensed', sans-serif;
      font-size: 1.7rem;
+}
+
+.perfect-fit-contents h3{
+     font-size: 1.7rem;
+}
+
+.perfect-fit h1{
+     font-size: 2rem;
 }
