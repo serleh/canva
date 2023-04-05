@@ -202,20 +202,60 @@ a{
 /* TEMPLATE GALLERY */
 
 .template-gallery{
-     border: 2px solid red;
      display: flex;
-     justify-content: space-between;
+     width: 80%;
+     margin: 0 auto;
+     background-color: #f6f3f3;
+     margin-top: 20px;
+   
+     
 }
 
-.template-gallery .gallery-t{
-     border: 2px solid black;
-
+.template-container{
+     width: 50%;
+     margin:0 auto;
+     text-align: center;
+    
 }
 
-.gallery-t-1{
+.template-gallery section div img{
+     width: 100%;
+     padding: 10px;
+}
+
+.template-gallery section{
+     width: 33.33%;
+     padding: 10px;
+}
+
+.first-grid{
      display: grid;
-  grid: repeat(2, 160px) / auto-flow 80px;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+     /* grid-auto-rows: minmax(200px, auto); */
 }
+
+.second-grid{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+}
+
+.third-grid{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 10px;
+}
+
+
+
+
+
+.template-gallery .item img{
+     width: 100%;
+}
+
+
 
 /* BROWSE */
 
@@ -251,7 +291,6 @@ a{
 .two-create{
      margin: 0 auto;
      width: 80%;
-     border: 2px solid red;
 }
 .two-create div{
     
@@ -261,6 +300,7 @@ a{
 
 .two-create li{
      margin: 40px 0;
+     list-style-type: none;
 }
 
 
@@ -273,7 +313,7 @@ a{
 }
 
 .two-create ul{
-     border: 2px solid black;
+     /* border: 2px solid black; */
      margin-top: 80px;
 }
 
@@ -297,9 +337,45 @@ a{
 .suprise-gallery p{
      margin-top: 20px;
 }
-footer {
+
+.final-section{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+     border-top: 2px solid #c0c0c0;
+     border-bottom: 2px solid #c0c0c0;
+     padding: 30px;
+}
+
+
+.final-section li{
+     list-style-type: none;
+     padding: 8px;
+    
+}
+.final-section li a{
+     color: #000;
 
 }
+
+.final-section ul{
+     padding: 0;
+}
+
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ footer select {
+     width: 150px;
+     height: 40px;
+     border: 1px solid #ccc;
+     padding: 5px;
+   }
+   
 
 /******************************************
 /* ADDITIONAL STYLES
